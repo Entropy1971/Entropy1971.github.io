@@ -1,0 +1,10 @@
+p {
+  color: gray; }
+
+h1 {
+  color: gray; }
+
+.nesting p {
+  color: green; }
+
+/*# sourceMappingURL=project0.css.map */
