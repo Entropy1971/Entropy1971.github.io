@@ -24,13 +24,7 @@
     font-style: italic;
   }
 
-  p {
-    color: gray
-  }
 
-  h1 {
-    color: gray;
-  }
 
   @media (max-width: 600px) {
       body {
