@@ -1,5 +1,38 @@
 #intro {
-          font-size: 28px;
-          font-color: gray;
+          color: magenta;
         }
-  
+
+  table {
+          border: 2px solid gray;
+          border-collapse: collapse;
+          width: 50%;
+        }
+
+  th, td {
+          border: 1px solid gray;
+          padding: 5px;
+          text-align: center;
+        }
+
+  th {
+          background-color: lightgray;
+      }
+
+  .purple {
+    color: purple;
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  p {
+    color: gray
+  }
+
+  h1 {
+    color: gray;
+  }
+
+  @media (max-width: 600px) {
+      body {
+          background-color: lightgray;
+      }
