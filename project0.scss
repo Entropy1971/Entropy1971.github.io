@@ -15,3 +15,27 @@ h1 {
     }
 
 }
+
+%commentary {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.bulbasaur {
+    @extend %commentary;
+    background-color: mediumseagreen;
+}
+
+.charmander {
+    @extend %commentary;
+    background-color: darkorange;
+}
+
+.squirtle {
+    @extend %commentary;
+    background-color: lightskyblue;
+}

@@ -7,4 +7,21 @@ h1 {
 .nesting p {
   color: green; }
 
+.bulbasaur, .charmander, .squirtle {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px; }
+
+.bulbasaur {
+  background-color: mediumseagreen; }
+
+.charmander {
+  background-color: darkorange; }
+
+.squirtle {
+  background-color: lightskyblue; }
+
 /*# sourceMappingURL=project0.css.map */
